@@ -38,7 +38,14 @@ const ProductDetail = () => {
       navigate('/cart');
     }, 1000);
   };
-
+  const formatPrice = (price) => {
+    return new Intl.NumberFormat('en-IN', {
+      style: 'currency',
+      currency: 'INR',
+      maximumFractionDigits: 2,
+      minimumFractionDigits: 0
+    }).format(price);
+  };
   const relatedProducts = productsData
     .filter(p => p.category === product.category && p.id !== product.id)
     .slice(0, 4);
@@ -51,7 +58,7 @@ const ProductDetail = () => {
       {/* Breadcrumb */}
       <div className="bg-white border-b">
         <div className="container mx-auto px-4 py-4">
-          <button 
+          <button
             onClick={() => navigate(-1)}
             className="flex items-center gap-2 text-gray-600 hover:text-red-600 font-semibold transition-colors"
           >
@@ -90,11 +97,10 @@ const ProductDetail = () => {
                   <button
                     key={index}
                     onClick={() => setSelectedImage(index)}
-                    className={`flex-1 rounded-2xl overflow-hidden transition-all ${
-                      selectedImage === index 
-                        ? 'ring-4 ring-red-600 scale-105' 
+                    className={`flex-1 rounded-2xl overflow-hidden transition-all ${selectedImage === index
+                        ? 'ring-4 ring-red-600 scale-105'
                         : 'ring-2 ring-gray-200 hover:ring-gray-300'
-                    }`}
+                      }`}
                   >
                     <img
                       src={image}
@@ -144,7 +150,7 @@ const ProductDetail = () => {
                 <div className="flex items-baseline justify-between">
                   <div>
                     <span className="text-5xl font-bold text-red-600">
-                      ${product.price.toFixed(2)}
+                      {formatPrice(product.price)}
                     </span>
                     <span className="text-lg text-gray-600 ml-2">/ {product.unit}</span>
                   </div>
@@ -179,11 +185,10 @@ const ProductDetail = () => {
                 <button
                   onClick={handleAddToCart}
                   disabled={isAdding}
-                  className={`flex-1 flex items-center justify-center gap-3 py-4 px-8 rounded-xl font-bold text-lg transition-all shadow-lg ${
-                    isAdding
+                  className={`flex-1 flex items-center justify-center gap-3 py-4 px-8 rounded-xl font-bold text-lg transition-all shadow-lg ${isAdding
                       ? 'bg-green-500 text-white scale-95'
                       : 'bg-red-600 hover:bg-red-700 text-white hover:shadow-xl hover:scale-105'
-                  }`}
+                    }`}
                 >
                   <ShoppingCart size={24} />
                   {isAdding ? 'Added to Cart!' : 'Add to Cart'}

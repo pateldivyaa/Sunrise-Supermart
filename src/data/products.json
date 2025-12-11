@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "name": "Organic Bananas",
-    "category": "Fruits & Vegetables",
+    "name": "Hawaban Harde Ayurvedic Digestive Powder",
+    "category": "Personal Care",
     "price": 2.49,
     "images": [
-      "https://images.pexels.com/photos/2872755/pexels-photo-2872755.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://lh3.googleusercontent.com/glsgmb/AMnFcupwBAuQvBXBtGsI78fILdzAPXqPUIxWphBCSrdf42TrIZeX_udDPm_SkYwYZ527zRaO5cSVJSaQyRU3FYJJfpHalg=s380-k-rw-no-sc0x00ffffff"
     ],
     "description": "Fresh organic bananas, perfect for snacking or smoothies. Rich in potassium and natural energy.",
     "rating": 4.5,
@@ -14,24 +14,24 @@
   },
   {
     "id": 2,
-    "name": "Fresh Milk - Whole",
-    "category": "Dairy & Eggs",
+    "name": "Colin Glass & Surface Cleaner – Sparkling Shine",
+    "category": "Home Care",
     "price": 3.99,
     "images": [
-      "https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://lh3.googleusercontent.com/glsgmb/AMnFcupJBv6uLN-eMp8VkKCluYo8eQVbKaTkzgT4g9-kcEiy-Xqb6-V-tY4V_E-pwcVVjB3byMGWAYGobCHFpgtXSMZQog=w5121-h0-k-rw-no-sc0x00ffffff"
     ],
-    "description": "Farm fresh whole milk, pasteurized and homogenized. Perfect for drinking or cooking.",
+    "description": "The spray bottle design allows easy application, ensuring quick and convenient cleaning. With its refreshing cool fragrance and effective shine formula, Colin is a must-have household cleaner for everyday use.",
     "rating": 4.8,
     "stock": 85,
     "unit": "1 gallon"
   },
   {
     "id": 3,
-    "name": "Artisan Sourdough Bread",
-    "category": "Bakery",
+    "name": "Lijjat Papad",
+    "category": "pacaged food",
     "price": 4.99,
     "images": [
-      "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://lh3.googleusercontent.com/glsgmb/AMnFcuo2EbEL1CUc1KWPslGSfE9WSfOiUKD9kQA_ExEvkJXI1T9P-a8hYxWzik_DSdt3F5dkiVfb3URVl92hHl9fU_lUgg=w3073-h0-k-rw-no-sc0x00ffffff"
     ],
     "description": "Handcrafted sourdough bread with a crispy crust and soft interior. Baked fresh daily.",
     "rating": 4.7,
@@ -40,11 +40,11 @@
   },
   {
     "id": 4,
-    "name": "Free Range Eggs",
-    "category": "Dairy & Eggs",
+    "name": "DentoShine Oral Care Products",
+    "category": "oral care",
     "price": 5.49,
     "images": [
-      "https://images.pexels.com/photos/1556707/pexels-photo-1556707.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://lh3.googleusercontent.com/glsgmb/AMnFcuongcrC6yIDiO86f44SW8ngk0xRGZh9gil7hVhMJFWhpHNbVuP0qQHgyksXeLkQVTDsO60F1EjlmH7BBQ75b5qFzQ=w5121-h0-k-rw-no-sc0x00ffffff"
     ],
     "description": "Fresh free-range eggs from local farms. Grade A large eggs, perfect for any meal.",
     "rating": 4.9,
@@ -66,11 +66,11 @@
   },
   {
     "id": 6,
-    "name": "Organic Chicken Breast",
-    "category": "Meat & Seafood",
+    "name": "Del Monte Sweet Corn Cream Style",
+    "category": "World food",
     "price": 9.99,
     "images": [
-      "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://lh3.googleusercontent.com/glsgmb/AMnFcuo8jSnxrt4mQellQE1i47PPuxfC8RsEiK4ZVj7RllPnKD14hm7eJ4fnuh196toH4aX89fDksmwMC8XC9IIzoksfkA=w3073-h0-k-rw-no-sc0x00ffffff"
     ],
     "description": "Boneless, skinless organic chicken breast. Hormone-free and antibiotic-free.",
     "rating": 4.8,
@@ -79,63 +79,39 @@
   },
   {
     "id": 7,
-    "name": "Fresh Tomatoes",
-    "category": "Fruits & Vegetables",
+    "name": "R U Nutz! Premium walnuts whole",
+    "category": "Dry Fruits",
     "price": 3.49,
     "images": [
-      "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://lh3.googleusercontent.com/glsgmb/AMnFcuoC5nQTl3wxN0oP0TANxyj8utRrhaXhfIiCBnrA7XXmng8MOjucVzDn9n9eOojxo-Ox5FDRZPdKnMJc9sXyAkeqlw=w3073-h0-k-rw-no-sc0x00ffffff"
     ],
     "description": "Vine-ripened tomatoes, juicy and flavorful. Great for salads, sandwiches, or cooking.",
     "rating": 4.4,
     "stock": 95,
     "unit": "per lb"
   },
-  {
-    "id": 8,
-    "name": "Extra Virgin Olive Oil",
-    "category": "Pantry",
-    "price": 14.99,
-    "images": [
-      "https://images.pexels.com/photos/33735/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Cold-pressed extra virgin olive oil from Mediterranean olives. Perfect for cooking and dressings.",
-    "rating": 4.7,
-    "stock": 72,
-    "unit": "750ml bottle"
-  },
+
   {
     "id": 9,
-    "name": "Greek Yogurt",
-    "category": "Dairy & Eggs",
+    "name": "Potato Chips",
+    "category": "Gruh Udhyog",
     "price": 4.49,
     "images": [
-      "https://images.pexels.com/photos/6544376/pexels-photo-6544376.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://lh3.googleusercontent.com/glsgmb/AMnFcur-iT2QIqix18wLJTkPYOguzejZbl7wWl-F_EfZ_riuLr_PVbsSgVOwsqRyFMQwsoDtz9E0DqG7Ls8pzA0aqERo0Q=s380-k-rw-no-sc0x00ffffff"
     ],
     "description": "Creamy Greek yogurt, high in protein. Plain flavor, perfect for breakfast or snacks.",
     "rating": 4.6,
     "stock": 88,
     "unit": "32 oz"
   },
-  {
-    "id": 10,
-    "name": "Fresh Atlantic Salmon",
-    "category": "Meat & Seafood",
-    "price": 15.99,
-    "images": [
-      "https://images.pexels.com/photos/3688/food-dinner-lunch-fish.jpg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Wild-caught Atlantic salmon fillets. Rich in omega-3 fatty acids and perfectly fresh.",
-    "rating": 4.9,
-    "stock": 38,
-    "unit": "per lb"
-  },
+
   {
     "id": 11,
-    "name": "Organic Baby Spinach",
-    "category": "Fruits & Vegetables",
+    "name": "Patanjali Hair Care Range Of Products",
+    "category": "Hair Care",
     "price": 3.99,
     "images": [
-      "https://images.pexels.com/photos/2255935/pexels-photo-2255935.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://lh3.googleusercontent.com/glsgmb/AMnFcuqWH5rFhfEksvT6yhBatT2Qk_S2lT3R0DffKmEckqaS3M3zAWr2-KFc4gy1kZhGodnvZp4I2JBexRe1CZQ2Q82y3Q=s380-k-rw-no-sc0x00ffffff"
     ],
     "description": "Tender organic baby spinach leaves. Pre-washed and ready to eat. Perfect for salads.",
     "rating": 4.5,
@@ -144,11 +120,11 @@
   },
   {
     "id": 12,
-    "name": "Chocolate Chip Cookies",
-    "category": "Bakery",
+    "name": "Snickers Original]",
+    "category": "Chocolates",
     "price": 5.99,
     "images": [
-      "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://lh3.googleusercontent.com/glsgmb/AMnFcuqIdRaw8FPUVN6IQcO5JijU1bPoGqYoLTqVuAs1aI7o91nY9ett0rKFXMbaE3c3sguCXVtMOJbhkme5xgNqko4x0w=s380-k-rw-no-sc0x00ffffff"
     ],
     "description": "Freshly baked chocolate chip cookies. Soft, chewy, and loaded with chocolate chips.",
     "rating": 4.8,

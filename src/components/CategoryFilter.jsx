@@ -1,4 +1,22 @@
-const CategoryFilter = ({ categories, selectedCategory, setSelectedCategory }) => {
+const CategoryFilter = ({ selectedCategory, setSelectedCategory }) => {
+  const categories = [
+    'Personal Care',
+    'Home Care',
+    'Packaged Foods',
+    'Oral Care',
+    'World Food',
+    'Dry Fruits',
+    'Kitchen Care Products',
+    'Gruh Udhyog',
+    'Hair Care',
+    'Ready to Cook/Instant Mix',
+    'Spices',
+    'Chocolates',
+    'Beverages',
+    'Staples',
+    'Bakery'
+  ];
+
   return (
     <div className="space-y-3">
       <button

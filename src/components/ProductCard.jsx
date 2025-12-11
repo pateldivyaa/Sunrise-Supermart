@@ -15,6 +15,14 @@ const ProductCard = ({ product }) => {
     addToCart(product);
     setTimeout(() => setIsAdding(false), 500);
   };
+  const formatPrice = (price) => {
+    return new Intl.NumberFormat('en-IN', {
+      style: 'currency',
+      currency: 'INR',
+      maximumFractionDigits: 2,
+      minimumFractionDigits: 0
+    }).format(price);
+  };
 
   return (
     <Link
@@ -30,34 +38,32 @@ const ProductCard = ({ product }) => {
           loading="lazy"
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
         />
-        
+
         {product.stock < 50 && (
           <div className="absolute top-4 left-4 bg-orange-500 text-white text-xs font-semibold px-3 py-1.5 rounded-full shadow-lg">
             Low Stock
           </div>
         )}
-        
+
         <button
-          onClick={(e) => { 
-            e.preventDefault(); 
-            setIsFavorite(!isFavorite); 
+          onClick={(e) => {
+            e.preventDefault();
+            setIsFavorite(!isFavorite);
           }}
           className="absolute top-4 right-4 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
         >
-          <Heart 
-            size={18} 
-            className={isFavorite ? 'fill-orange-500 text-orange-500' : 'text-gray-600'} 
+          <Heart
+            size={18}
+            className={isFavorite ? 'fill-orange-500 text-orange-500' : 'text-gray-600'}
           />
         </button>
 
-        <div className={`absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent p-4 transform transition-all duration-300 ${
-          isHovered ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
-        }`}>
+        <div className={`absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent p-4 transform transition-all duration-300 ${isHovered ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
+          }`}>
           <button
             onClick={handleAddToCart}
-            className={`w-full flex items-center justify-center gap-2 py-3 rounded-lg font-semibold transition-all ${
-              isAdding ? 'bg-green-500 text-white' : 'bg-white text-gray-900 hover:bg-gray-100'
-            }`}
+            className={`w-full flex items-center justify-center gap-2 py-3 rounded-lg font-semibold transition-all ${isAdding ? 'bg-green-500 text-white' : 'bg-white text-gray-900 hover:bg-gray-100'
+              }`}
           >
             <ShoppingCart size={18} />
             {isAdding ? 'Added!' : 'Quick Add'}
@@ -69,7 +75,7 @@ const ProductCard = ({ product }) => {
         <span className="inline-block text-xs font-semibold text-orange-600 bg-orange-50 px-2.5 py-1 rounded-full mb-2">
           {product.category}
         </span>
-        
+
         <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-2 leading-snug">
           {product.name}
         </h3>
@@ -90,16 +96,14 @@ const ProductCard = ({ product }) => {
 
         <div className="flex items-center justify-between">
           <div>
-            <span className="text-2xl font-bold text-orange-600">${product.price.toFixed(2)}</span>
-            <span className="text-xs text-gray-500 ml-1">/ {product.unit}</span>
+            <span className="text-2xl font-bold text-orange-600">{formatPrice(product.price)}</span>            <span className="text-xs text-gray-500 ml-1">/ {product.unit}</span>
           </div>
           <button
             onClick={handleAddToCart}
-            className={`w-10 h-10 rounded-lg transition-colors flex items-center justify-center ${
-              isAdding
+            className={`w-10 h-10 rounded-lg transition-colors flex items-center justify-center ${isAdding
                 ? 'bg-green-600 text-white'
                 : 'bg-orange-50 text-orange-600 hover:bg-orange-600 hover:text-white'
-            }`}
+              }`}
           >
             <ShoppingCart size={18} />
           </button>
