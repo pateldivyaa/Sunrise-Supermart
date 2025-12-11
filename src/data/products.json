@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "name": "Organic Bananas",
+    "category": "Fruits & Vegetables",
+    "price": 2.49,
+    "images": [
+      "https://images.pexels.com/photos/2872755/pexels-photo-2872755.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Fresh organic bananas, perfect for snacking or smoothies. Rich in potassium and natural energy.",
+    "rating": 4.5,
+    "stock": 150,
+    "unit": "per bunch"
+  },
+  {
+    "id": 2,
+    "name": "Fresh Milk - Whole",
+    "category": "Dairy & Eggs",
+    "price": 3.99,
+    "images": [
+      "https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Farm fresh whole milk, pasteurized and homogenized. Perfect for drinking or cooking.",
+    "rating": 4.8,
+    "stock": 85,
+    "unit": "1 gallon"
+  },
+  {
+    "id": 3,
+    "name": "Artisan Sourdough Bread",
+    "category": "Bakery",
+    "price": 4.99,
+    "images": [
+      "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Handcrafted sourdough bread with a crispy crust and soft interior. Baked fresh daily.",
+    "rating": 4.7,
+    "stock": 45,
+    "unit": "per loaf"
+  },
+  {
+    "id": 4,
+    "name": "Free Range Eggs",
+    "category": "Dairy & Eggs",
+    "price": 5.49,
+    "images": [
+      "https://images.pexels.com/photos/1556707/pexels-photo-1556707.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Fresh free-range eggs from local farms. Grade A large eggs, perfect for any meal.",
+    "rating": 4.9,
+    "stock": 120,
+    "unit": "dozen"
+  },
+  {
+    "id": 5,
+    "name": "Premium Ground Coffee",
+    "category": "Beverages",
+    "price": 12.99,
+    "images": [
+      "https://images.pexels.com/photos/4109998/pexels-photo-4109998.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Rich and aromatic ground coffee beans. Medium roast with hints of chocolate and caramel.",
+    "rating": 4.6,
+    "stock": 65,
+    "unit": "1 lb bag"
+  },
+  {
+    "id": 6,
+    "name": "Organic Chicken Breast",
+    "category": "Meat & Seafood",
+    "price": 9.99,
+    "images": [
+      "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Boneless, skinless organic chicken breast. Hormone-free and antibiotic-free.",
+    "rating": 4.8,
+    "stock": 55,
+    "unit": "per lb"
+  },
+  {
+    "id": 7,
+    "name": "Fresh Tomatoes",
+    "category": "Fruits & Vegetables",
+    "price": 3.49,
+    "images": [
+      "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Vine-ripened tomatoes, juicy and flavorful. Great for salads, sandwiches, or cooking.",
+    "rating": 4.4,
+    "stock": 95,
+    "unit": "per lb"
+  },
+  {
+    "id": 8,
+    "name": "Extra Virgin Olive Oil",
+    "category": "Pantry",
+    "price": 14.99,
+    "images": [
+      "https://images.pexels.com/photos/33735/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Cold-pressed extra virgin olive oil from Mediterranean olives. Perfect for cooking and dressings.",
+    "rating": 4.7,
+    "stock": 72,
+    "unit": "750ml bottle"
+  },
+  {
+    "id": 9,
+    "name": "Greek Yogurt",
+    "category": "Dairy & Eggs",
+    "price": 4.49,
+    "images": [
+      "https://images.pexels.com/photos/6544376/pexels-photo-6544376.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Creamy Greek yogurt, high in protein. Plain flavor, perfect for breakfast or snacks.",
+    "rating": 4.6,
+    "stock": 88,
+    "unit": "32 oz"
+  },
+  {
+    "id": 10,
+    "name": "Fresh Atlantic Salmon",
+    "category": "Meat & Seafood",
+    "price": 15.99,
+    "images": [
+      "https://images.pexels.com/photos/3688/food-dinner-lunch-fish.jpg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Wild-caught Atlantic salmon fillets. Rich in omega-3 fatty acids and perfectly fresh.",
+    "rating": 4.9,
+    "stock": 38,
+    "unit": "per lb"
+  },
+  {
+    "id": 11,
+    "name": "Organic Baby Spinach",
+    "category": "Fruits & Vegetables",
+    "price": 3.99,
+    "images": [
+      "https://images.pexels.com/photos/2255935/pexels-photo-2255935.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Tender organic baby spinach leaves. Pre-washed and ready to eat. Perfect for salads.",
+    "rating": 4.5,
+    "stock": 110,
+    "unit": "10 oz bag"
+  },
+  {
+    "id": 12,
+    "name": "Chocolate Chip Cookies",
+    "category": "Bakery",
+    "price": 5.99,
+    "images": [
+      "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Freshly baked chocolate chip cookies. Soft, chewy, and loaded with chocolate chips.",
+    "rating": 4.8,
+    "stock": 67,
+    "unit": "12 pack"
+  }
+]
